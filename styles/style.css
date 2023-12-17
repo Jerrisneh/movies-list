@@ -149,15 +149,7 @@ input[type="submit"]:hover {
         }
 }
 @media screen and (min-width:500px) and (max-width: 1023px) {
-    .container {
-        width: 100%;
-        min-height: 100%;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    .todoContainer {
-        margin-top: 20px;
-    }
+  
     form p{
         position: absolute;
         background-color: #5f5b5b;
