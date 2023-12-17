@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Josefin+Sans:ital,wght@0,300;0,600;1,400&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="event">
+        <h1>Your Movie(s) List</h1>
+        <p>
+          Do you love to watch movies just to relax and educate yourself more
+          during breaks or rest hours ie downtimes;Then hit the plus button
+        </p>
+      </div>
+      
+      <form>
+        <input autofocus
+          type="text"
+          id="todo-input">
+          <p>Enter Movie(s)</p>
+        </input>
+          <input type="submit" class="todo-btn"  value="+"/>
+      </form>
+      <div class="todoContainer">
+        <p>Movie(s) appear here</p>
+        <ul class="todo-list"></ul>
+      </div>
+        <!-- <div class="movie-list"></div> -->
+
+        <script src="./JS/index.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
