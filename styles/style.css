@@ -127,7 +127,7 @@ input[type="submit"]:hover {
     text-decoration: line-through;
     opacity: 0.5;
 }
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     body {
         overflow-x: hidden;
     }
@@ -157,4 +157,4 @@ input[type="submit"]:hover {
         top: 65px;
         left: 120px;
         }
-} */
+}
